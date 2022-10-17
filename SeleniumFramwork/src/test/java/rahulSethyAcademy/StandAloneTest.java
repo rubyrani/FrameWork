@@ -21,6 +21,7 @@ public class StandAloneTest {
 		driver.findElement(By.id("userPassword")).sendKeys("Ruby@1989");
 		driver.findElement(By.name("login")).click();
 		List<WebElement> listProduct = driver.findElements(By.cssSelector(".col-lg-4 "));
+		System.out.Print("hello github");
 		
 	}
 
